@@ -1,0 +1,8 @@
+method,ROC-AUC,PR-AUC (AP),recall@0.1%,prec@0.1%,recall@0.5%,prec@0.5%,recall@1.0%,prec@1.0%
+Baseline: Amount robust-z,0.637,0.002,0.0,0.0,0.009,0.002,0.028,0.004
+Baseline: max |z| (29 features),0.938,0.035,0.0,0.0,0.167,0.042,0.407,0.052
+Baseline: Mahalanobis distance,0.946,0.034,0.0,0.0,0.093,0.023,0.426,0.054
+Cluster: K-means distance,0.938,0.035,0.0,0.0,0.111,0.028,0.426,0.054
+Cluster: K-means distance / cluster median,0.884,0.021,0.0,0.0,0.046,0.012,0.343,0.043
+Classification: One-class SVM (normal only),0.941,0.099,0.0,0.0,0.611,0.155,0.75,0.095
+Classification: Gradient boosting (supervised),0.977,0.768,0.713,0.906,0.843,0.213,0.87,0.11
